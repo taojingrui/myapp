@@ -1,5 +1,5 @@
-From centos
-MINTAINER Ray
+FROM centos
+MAINTAINER Ray
 RUN yum instll httpd -y
 RUN echo 'myapp v1' > /var/www/html/index.html
 EXPOSE 80 
